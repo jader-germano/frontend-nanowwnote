@@ -9,7 +9,7 @@ export default createGlobalStyle`
   box-sizing: border-box;
   }
  body {
-  // forreference about background in styled component literals
+  // for reference about background in styled component literals
   /*background: #f0f0f5 url(${background}) no-repeat 70% top;*/
   background: #f0f0f5;
   -webkit-font-smoothing: antialiased;

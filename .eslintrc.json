@@ -33,6 +33,15 @@
         "prettier/prettier": "error",
         "react-hooks/rules-of-hooks": "error",
         "react-hooks/exhaustive-deps": "warn",
+        "import/prefer-default-export": "off",
+        "camelcase": "off",
+        "@typescript-eslint/camelcase": "off",
+        "@typescript-eslint/explicit-function-return-type": [
+            "error",
+            {
+                "allowExpressions": true
+            }
+        ],
         "react/jsx-filename-extension": [
             1,
             {
@@ -41,7 +50,6 @@
                 ]
             }
         ],
-        "import/prefer-default-export": "off",
         "indent": [
             "error",
             4,
